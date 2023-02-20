@@ -1,0 +1,52 @@
+.container1 {
+    background-color: white;
+    border-radius: 8px;
+    padding: 13px 25px 13px 25px;
+}
+
+.history-header {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.history-list {
+    background-color: bisque;
+    font-weight: normal;
+    padding: 10px 15px 10px 15px;
+    border-radius: 4px;
+}
+
+.date,
+.title,
+.status {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.date {
+    width: 15%;
+    text-align: left;
+}
+
+.title {
+    width: 60%;
+    text-align: center;
+}
+
+.status {
+    width: 25%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.status-attended {
+    color: green;
+}
+
+.status- {
+    color: green;
+}
+
+.status-cancelled {
+    color: red;
+}

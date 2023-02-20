@@ -1,0 +1,81 @@
+.container1 {
+  margin: 30px;
+  font-weight: bold;
+  text-align: left;
+  background-color: white;
+  padding: 13px;
+}
+
+.container1 table {
+  border-collapse: collapse;
+  width: 90%;
+  
+
+}
+
+.container1 table, td, th {
+  background-color: white;
+  padding: 10px;
+  margin: 70px;
+}
+
+
+.container1 th {
+  background-color: #aabac9;
+  text-align: center;
+  height: 40px;
+   
+}
+
+.container1 td {
+  background-color: white;
+  font-weight: normal;
+  text-align: center;
+  border-bottom: 0.5px solid grey;
+  
+
+}
+ 
+p {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  float: left;
+}
+
+.buttonEdit {
+  margin: 10px;
+  float: right;
+  width: 70px;
+  cursor: pointer;
+
+}
+
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.25;
+}
+
+
+.edit{
+  text-decoration: none;
+  color: black;
+
+
+}
+
+.buttonCreate{
+float: right;
+margin: 20px;
+
+
+}
+
+.btnCreate{
+font-weight: bold;
+padding: 10px;
+background-color: lightblue;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}

@@ -1,0 +1,51 @@
+.container1 {
+    margin: 30px;
+    font-weight: bold;
+    text-align: left;
+    background-color: rgb(221,242,255);
+    padding: 13px;
+}
+
+.attendance-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+  
+.attendance-header p:first-of-type {
+    margin-bottom: 10px;
+}
+  
+.attendance-header .counter-box {
+    margin-top: auto;
+}
+
+.counter-box {
+    display: flex;
+    justify-content: flex-end;
+}
+  
+.counter-item {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+  
+.counter-item p:first-of-type {
+    margin-right: 5px;
+}
+
+.attend-present {
+    font-weight: bold;
+}
+
+.attend-absent {
+    font-weight: bold;
+    color: red;
+}
+
+.count{
+    font-size: 25px;
+    margin-top: 10px;
+}
+  

@@ -1,0 +1,19 @@
+.report-page {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 10px;
+}
+
+.report-page-header {
+    display: flex;
+    align-items: center;
+}
+
+.report-page-header > * {
+    margin: 0 8px;
+}
+  
+  
+  

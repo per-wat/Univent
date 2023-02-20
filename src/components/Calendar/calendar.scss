@@ -1,0 +1,58 @@
+.outer-box {
+    background-color: rgb(221,242,255);
+    padding: 13px;
+
+}
+
+.inner-box {
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+.custom-height {
+    height: 1080px;
+    padding: 15px 70px 15px 70px;
+}
+
+.rbc-calendar {
+    .rbc-month-view,
+    .rbc-time-view {
+        width: 70%;
+        margin:auto;
+    }
+}
+
+.lgn-box {
+    z-index: 10;
+    position: absolute;
+    top: 50em;
+
+    .lgn-elem {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left; 
+        margin-bottom: 20px;
+
+        .lgn-color {
+            width: 35px;
+            height: 20px;
+            border-radius: 2px;
+            margin-right: 15px;
+
+            &.event {
+                background-color: #FFA1A1;
+            }
+            &.train {
+                background-color: #99DBD7;
+            }
+            &.seminar {
+                background-color: #999AFF;
+            }
+        }
+
+        .lgn-tag {
+            font-weight: 700;
+        }
+    }
+}

@@ -1,0 +1,62 @@
+.rbc-toolbar {
+
+    .rbc-toolbar-icon {
+        background-image: url(./calendar-icon.png);
+        background-size: 73px;
+        height: 82px;
+        width: 74px;
+        border: none;
+    }
+
+    .rbc-toolbar-label.custom-style {
+        text-align: left;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .rbc-btn-group.custom-style {
+        & button {
+            &:active,
+            &.rbc-active {
+                box-shadow: none;
+    
+                &:hover,
+                &:focus {
+                background-color: none;
+                }
+            }
+            &:hover,
+            &:focus {
+                background-color: none;
+            }
+        }
+
+        .nextp-btn {
+            border: none;
+            padding: 0px 7px 0px 10px;
+
+            &:hover,
+            &:focus {
+                background-color: white;
+            }
+        }
+
+        .arrow {
+            border: solid rgb(213,129,161);
+            border-width: 0 3.5px 3.5px 0;
+            display: inline-block;
+            padding: 5px;
+        }
+
+        .left {
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+         }
+         
+         .right {
+             transform: rotate(-45deg);
+             -webkit-transform: rotate(-45deg);
+         }
+    }
+    
+}

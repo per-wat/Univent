@@ -1,0 +1,59 @@
+.booking-page {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 10px;
+}
+
+.booking-page-header {
+    display: flex;
+    align-items: center;
+}
+
+.booking-page-header > * {
+    margin: 0 8px;
+}
+
+.btnStatus{
+    margin-top: 20px;
+    margin-right: 10px;
+    float: right;
+    padding: 8px 15px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.CancelStatus{
+    color: red;
+    font-weight: bold;
+}
+
+.ComingStatus{
+    color: blue;
+    font-weight: bold;
+}
+
+.ActiveStatus{
+    color: green;
+    font-weight: bold;
+}
+
+.btnAttend {
+    margin-top: 20px;
+    margin-left: 130px;
+    float: left;
+    padding: 8px 15px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+  

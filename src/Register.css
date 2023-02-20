@@ -1,0 +1,110 @@
+.logo{
+    padding: 20px;
+    margin: 20px auto;
+    
+}
+
+body{
+    background: lightblue;
+}
+
+
+.registration-container{
+    background-color: white;
+    border-radius: 5px;
+    width: 460px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 800px; 
+}
+
+.registration-body{
+    text-align: left;
+    padding: 5px 20px;
+}
+
+.registration__label{
+    width: 40%;
+    display: block;
+    margin: 10px 0;
+}
+
+.registration__input{
+    height: 40px;
+    width: 415px;
+    display: block;
+    margin: 10px 0;
+    padding-left: 10px;
+}
+
+.btnReg{
+    font-size: 20px;
+      font-weight: bold;
+      margin-top: 10px;
+      width: 94%;
+      height: 40px;
+      cursor: pointer;
+      background-color: lightblue;
+      border-radius: 4px;
+      margin-left: 15px;
+      border: none;
+
+}
+
+.link{
+    color: #0e52ac;
+    text-decoration: none;
+  }
+
+.registration-role-body{
+    margin: 20px;
+    
+}
+
+.btnRegAdmin {
+    width: 230px;
+    height: 40px;
+    background-color: lightblue;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btnRegStd {
+    margin-top: 20px;
+    width: 230px;
+    height: 40px;
+    font-weight: bold;
+    border: none;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.backLink {
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.btnBack{
+    font-weight: bold; 
+    border: none;
+    background-color: white;
+    color: blue;
+    margin-top: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.registration-box {
+    background-color: white;
+    border-radius: 5px;
+    width: 460px;
+    margin: 20px auto;
+    padding: 20px;
+  
+}

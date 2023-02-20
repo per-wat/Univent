@@ -1,0 +1,72 @@
+
+
+.container_booking {
+  margin: 30px;
+  font-weight: bold;
+  text-align: left;
+  background-color: white;
+  padding: 13px;
+}
+
+.container_booking table {
+  border-collapse: collapse;
+  width: 90%;
+
+}
+
+.container_booking table, td, th {
+  background-color: white;
+  padding: 10px;
+  margin: 70px;
+}
+
+
+.container_booking th {
+  background-color: #aabac9;
+  text-align: center;
+  height: 40px;
+   
+}
+
+.container_booking td {
+  background-color: white;
+  font-weight: normal;
+  text-align: center;
+  border-bottom: 0.5px solid grey;
+  
+
+}
+ 
+p {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  float: left;
+}
+
+.buttonBook {
+  margin: 10px;
+  float: right;
+  width: 100px;
+  cursor: pointer;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  background-color: lightblue;
+
+}
+
+.buttonBook:disabled {
+background-color: grey;
+cursor: not-allowed;
+font-weight: bold;
+}
+
+.booked {
+background-color: green;
+font-weight: bold;
+cursor: not-allowed;
+color: white;
+}
+
+
